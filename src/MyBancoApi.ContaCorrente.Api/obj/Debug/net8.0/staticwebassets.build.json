@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e9NDBA8hcmvx3LGc72CTZfsW4bj7gi6dX6QXmtBl6ec=",
+  "Source": "MyBancoApi.ContaCorrente.Api",
+  "BasePath": "_content/MyBancoApi.ContaCorrente.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

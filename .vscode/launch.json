@@ -1,0 +1,70 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      // Configuração para a API de Conta Corrente
+      "name": "Run Conta Corrente API",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build", // Executa a tarefa "build" (do tasks.json) primeiro
+
+      // --- AJUSTE AQUI ---
+      // Trocamos 'projectPath' por 'program' e 'cwd'
+      "program": "${workspaceFolder}/src/MyBancoApi.ContaCorrente.Api/bin/Debug/net8.0/MyBancoApi.ContaCorrente.Api.dll",
+      "cwd": "${workspaceFolder}/src/MyBancoApi.ContaCorrente.Api",
+      // --- FIM DO AJUSTE ---
+
+      "launchBrowser": {
+        "enabled": true,
+        "url": "http://localhost:5100/swagger" // Abre o Swagger
+      },
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5100" // Define a porta
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    },
+    {
+      // Configuração para a API de Transferência
+      "name": "Run Transferencia API",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+
+      // --- AJUSTE AQUI ---
+      // Trocamos 'projectPath' por 'program' e 'cwd'
+      "program": "${workspaceFolder}/src/MyBancoApi.Transferencia.Api/bin/Debug/net8.0/MyBancoApi.Transferencia.Api.dll",
+      "cwd": "${workspaceFolder}/src/MyBancoApi.Transferencia.Api",
+      // --- FIM DO AJUSTE ---
+
+      "launchBrowser": {
+        "enabled": true,
+        "url": "http://localhost:5200/swagger" // Abre o Swagger
+      },
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5200" // Define a porta
+      },
+      "sourceFileMap": {
+        "/Views": "${workspaceFolder}/Views"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      // Configuração "Mestra" para rodar as duas
+      "name": "Run All APIs",
+      "configurations": ["Run Conta Corrente API", "Run Transferencia API"]
+    }
+  ]
+}

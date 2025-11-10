@@ -1,0 +1,17 @@
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.deps.json
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.dll
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.pdb
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Application.dll
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Domain.dll
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Application.pdb
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\bin\Debug\net8.0\MyBancoApi.Tarifas.Domain.pdb
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.csproj.AssemblyReference.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.AssemblyInfoInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.AssemblyInfo.cs
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoA.9B5C2D65.Up2Date
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.dll
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\refint\MyBancoApi.Tarifas.Infrastructure.dll
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\MyBancoApi.Tarifas.Infrastructure.pdb
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Infrastructure\obj\Debug\net8.0\ref\MyBancoApi.Tarifas.Infrastructure.dll

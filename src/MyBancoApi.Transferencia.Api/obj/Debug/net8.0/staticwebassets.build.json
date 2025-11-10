@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eKIRC0Z6WlmuEUd8KP8FXvpCa3dgVOXCLn3OP6lymmk=",
+  "Source": "MyBancoApi.Transferencia.Api",
+  "BasePath": "_content/MyBancoApi.Transferencia.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,15 @@
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\bin\Debug\net8.0\MyBancoApi.Transferencia.Application.deps.json
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\bin\Debug\net8.0\MyBancoApi.Transferencia.Application.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\bin\Debug\net8.0\MyBancoApi.Transferencia.Application.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\bin\Debug\net8.0\MyBancoApi.Transferencia.Domain.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\bin\Debug\net8.0\MyBancoApi.Transferencia.Domain.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.csproj.AssemblyReference.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.AssemblyInfoInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.AssemblyInfo.cs
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoA.08444FF2.Up2Date
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\refint\MyBancoApi.Transferencia.Application.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\MyBancoApi.Transferencia.Application.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Application\obj\Debug\net8.0\ref\MyBancoApi.Transferencia.Application.dll

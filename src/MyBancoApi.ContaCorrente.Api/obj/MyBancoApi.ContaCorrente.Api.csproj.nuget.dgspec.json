@@ -1,0 +1,300 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Api\\MyBancoApi.ContaCorrente.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Api\\MyBancoApi.ContaCorrente.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Api\\MyBancoApi.ContaCorrente.Api.csproj",
+        "projectName": "MyBancoApi.ContaCorrente.Api",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Api\\MyBancoApi.ContaCorrente.Api.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj": {
+                "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj"
+              },
+              "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Infrastructure\\MyBancoApi.ContaCorrente.Infrastructure.csproj": {
+                "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Infrastructure\\MyBancoApi.ContaCorrente.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.20, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj",
+        "projectName": "MyBancoApi.ContaCorrente.Application",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Domain\\MyBancoApi.ContaCorrente.Domain.csproj": {
+                "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Domain\\MyBancoApi.ContaCorrente.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Domain\\MyBancoApi.ContaCorrente.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Domain\\MyBancoApi.ContaCorrente.Domain.csproj",
+        "projectName": "MyBancoApi.ContaCorrente.Domain",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Domain\\MyBancoApi.ContaCorrente.Domain.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Infrastructure\\MyBancoApi.ContaCorrente.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Infrastructure\\MyBancoApi.ContaCorrente.Infrastructure.csproj",
+        "projectName": "MyBancoApi.ContaCorrente.Infrastructure",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Infrastructure\\MyBancoApi.ContaCorrente.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj": {
+                "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.ContaCorrente.Application\\MyBancoApi.ContaCorrente.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

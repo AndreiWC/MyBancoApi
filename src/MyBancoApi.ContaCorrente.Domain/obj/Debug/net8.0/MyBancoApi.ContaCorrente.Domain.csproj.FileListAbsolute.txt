@@ -1,0 +1,11 @@
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\bin\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.deps.json
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\bin\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.dll
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\bin\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.pdb
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.AssemblyInfoInputs.cache
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.AssemblyInfo.cs
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.dll
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\refint\MyBancoApi.ContaCorrente.Domain.dll
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Domain.pdb
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Domain\obj\Debug\net8.0\ref\MyBancoApi.ContaCorrente.Domain.dll

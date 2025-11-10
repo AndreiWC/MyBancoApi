@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-MyBancoApi.Tarifas.Worker-056f435c-1171-4c61-b7e8-9da5673dbf5c</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KafkaFlow" Version="4.0.1" />
+    <PackageReference Include="KafkaFlow.Serializer.Json" Version="1.5.8" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyBancoApi.Tarifas.Application\MyBancoApi.Tarifas.Application.csproj" />
+    <ProjectReference Include="..\MyBancoApi.Tarifas.Infrastructure\MyBancoApi.Tarifas.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Worker\obj\Debug\net8.0\MyBancoApi.Tarifas.Worker.csproj.AssemblyReference.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Worker\obj\Debug\net8.0\MyBancoApi.Tarifas.Worker.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Worker\obj\Debug\net8.0\MyBancoApi.Tarifas.Worker.AssemblyInfoInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Worker\obj\Debug\net8.0\MyBancoApi.Tarifas.Worker.AssemblyInfo.cs
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Worker\obj\Debug\net8.0\MyBancoApi.Tarifas.Worker.csproj.CoreCompileInputs.cache

@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  # Serviço 1: API de Conta Corrente
+  conta-corrente-api:
+    build:
+      context: . # O contexto é a raiz, onde está o .sln
+      dockerfile: src/MyBancoApi.ContaCorrente.Api/Dockerfile
+    ports:
+      - "5100:8080" # Expõe a porta 5100 (Host) para a 8080 (Container)
+    environment:
+      - ASPNETCORE_URLS=http://+:8080 # Diz ao Kestrel para rodar na porta 8080
+    volumes:
+      - bancodata:/db # Monta o volume 'bancodata' na pasta '/db' do container
+    networks:
+      - banconet
+
+  # Serviço 2: API de Transferência
+  transferencia-api:
+    build:
+      context: .
+      dockerfile: src/MyBancoApi.Transferencia.Api/Dockerfile
+    ports:
+      - "5200:8080"
+    environment:
+      - ASPNETCORE_URLS=http://+:8080
+      # *** IMPORTANTE ***
+      # A API de Transferência agora usa o nome do serviço 'conta-corrente-api'
+      # para se comunicar, não 'localhost'.
+      - ApiClients__ContaCorrenteApiUrl=http://conta-corrente-api:8080
+    volumes:
+      - bancodata:/db # Monta o MESMO volume, permitindo acesso aos arquivos .db
+    depends_on:
+      - conta-corrente-api # Garante que a API de Conta Corrente inicie primeiro
+    networks:
+      - banconet
+
+# Volumes: Onde os dados do SQLite (.db) serão salvos
+volumes:
+  bancodata:
+
+# Networks: A rede privada onde os containers se comunicam
+networks:
+  banconet:

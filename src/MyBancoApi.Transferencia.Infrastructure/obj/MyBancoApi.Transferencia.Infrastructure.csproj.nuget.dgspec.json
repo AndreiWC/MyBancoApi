@@ -1,0 +1,218 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Infrastructure\\MyBancoApi.Transferencia.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Application\\MyBancoApi.Transferencia.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Application\\MyBancoApi.Transferencia.Application.csproj",
+        "projectName": "MyBancoApi.Transferencia.Application",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Application\\MyBancoApi.Transferencia.Application.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Domain\\MyBancoApi.Transferencia.Domain.csproj": {
+                "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Domain\\MyBancoApi.Transferencia.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Domain\\MyBancoApi.Transferencia.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Domain\\MyBancoApi.Transferencia.Domain.csproj",
+        "projectName": "MyBancoApi.Transferencia.Domain",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Domain\\MyBancoApi.Transferencia.Domain.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Infrastructure\\MyBancoApi.Transferencia.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Infrastructure\\MyBancoApi.Transferencia.Infrastructure.csproj",
+        "projectName": "MyBancoApi.Transferencia.Infrastructure",
+        "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Infrastructure\\MyBancoApi.Transferencia.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ANDRE\\.nuget\\packages\\",
+        "outputPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ANDRE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Application\\MyBancoApi.Transferencia.Application.csproj": {
+                "projectPath": "D:\\MyBancoApi\\src\\MyBancoApi.Transferencia.Application\\MyBancoApi.Transferencia.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "KafkaFlow": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

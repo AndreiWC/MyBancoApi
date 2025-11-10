@@ -1,0 +1,17 @@
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.deps.json
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Application.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Domain.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Application.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\bin\Debug\net8.0\MyBancoApi.Transferencia.Domain.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.csproj.AssemblyReference.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.AssemblyInfoInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.AssemblyInfo.cs
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoA.28F5307D.Up2Date
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\refint\MyBancoApi.Transferencia.Infrastructure.dll
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.pdb
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\ref\MyBancoApi.Transferencia.Infrastructure.dll

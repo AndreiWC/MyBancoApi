@@ -1,0 +1,6 @@
+@MyBancoApi.Transferencia.Api_HostAddress = http://localhost:5170
+
+GET {{MyBancoApi.Transferencia.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

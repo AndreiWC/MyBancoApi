@@ -61,6 +61,7 @@ D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\MyBancoApi.Conta
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Api.csproj.CoreCompileInputs.cache
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Api.sourcelink.json
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\staticwebassets.build.json
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\staticwebassets.development.json
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Api\obj\Debug\net8.0\staticwebassets\msbuild.MyBancoApi.ContaCorrente.Api.Microsoft.AspNetCore.StaticWebAssets.props

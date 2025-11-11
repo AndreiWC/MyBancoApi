@@ -8,6 +8,7 @@ D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoApi.Tar
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoApi.Tarifas.Application.AssemblyInfoInputs.cache
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoApi.Tarifas.Application.AssemblyInfo.cs
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoApi.Tarifas.Application.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoApi.Tarifas.Application.sourcelink.json
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoA.6A794132.Up2Date
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\MyBancoApi.Tarifas.Application.dll
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Application\obj\Debug\net8.0\refint\MyBancoApi.Tarifas.Application.dll

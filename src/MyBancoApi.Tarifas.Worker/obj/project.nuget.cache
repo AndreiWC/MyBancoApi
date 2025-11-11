@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gFfhU4WGtAs=",
+  "dgSpecHash": "bUtaY0vfFxI=",
   "success": true,
   "projectFilePath": "D:\\MyBancoApi\\src\\MyBancoApi.Tarifas.Worker\\MyBancoApi.Tarifas.Worker.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,9 @@
     "C:\\Users\\ANDRE\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\kafkaflow\\4.0.1\\kafkaflow.4.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\kafkaflow.abstractions\\4.0.1\\kafkaflow.abstractions.4.0.1.nupkg.sha512",
+    "C:\\Users\\ANDRE\\.nuget\\packages\\kafkaflow.microsoft.dependencyinjection\\4.0.1\\kafkaflow.microsoft.dependencyinjection.4.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\kafkaflow.serializer.json\\1.5.8\\kafkaflow.serializer.json.1.5.8.nupkg.sha512",
+    "C:\\Users\\ANDRE\\.nuget\\packages\\kafkaflow.serializer.jsoncore\\4.0.1\\kafkaflow.serializer.jsoncore.4.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\librdkafka.redist\\2.8.0\\librdkafka.redist.2.8.0.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.3\\microsoft.bcl.asyncinterfaces.9.0.3.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.data.sqlite\\9.0.10\\microsoft.data.sqlite.9.0.10.nupkg.sha512",
@@ -22,7 +24,7 @@
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.1\\microsoft.extensions.configuration.json.8.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.configuration.usersecrets\\8.0.1\\microsoft.extensions.configuration.usersecrets.8.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
-    "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.3\\microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.1\\microsoft.extensions.diagnostics.8.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.1\\microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
@@ -47,7 +49,7 @@
     "C:\\Users\\ANDRE\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.10\\sqlitepclraw.provider.e_sqlite3.2.1.10.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.1\\system.diagnostics.eventlog.8.0.1.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\system.memory\\4.6.1\\system.memory.4.6.1.nupkg.sha512",
-    "C:\\Users\\ANDRE\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\ANDRE\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\system.threading.channels\\9.0.3\\system.threading.channels.9.0.3.nupkg.sha512",
     "C:\\Users\\ANDRE\\.nuget\\packages\\system.threading.tasks.extensions\\4.6.1\\system.threading.tasks.extensions.4.6.1.nupkg.sha512"
   ],

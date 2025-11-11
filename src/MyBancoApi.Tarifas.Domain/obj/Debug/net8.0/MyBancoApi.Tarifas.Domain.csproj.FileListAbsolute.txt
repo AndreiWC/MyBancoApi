@@ -5,6 +5,7 @@ D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.Domain.AssemblyInfoInputs.cache
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.Domain.AssemblyInfo.cs
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.Domain.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.Domain.sourcelink.json
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.Domain.dll
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\refint\MyBancoApi.Tarifas.Domain.dll
 D:\MyBancoApi\src\MyBancoApi.Tarifas.Domain\obj\Debug\net8.0\MyBancoApi.Tarifas.Domain.pdb

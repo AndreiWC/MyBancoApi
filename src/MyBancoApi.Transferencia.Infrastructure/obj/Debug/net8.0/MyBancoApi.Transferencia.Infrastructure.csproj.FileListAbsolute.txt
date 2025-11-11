@@ -10,6 +10,7 @@ D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBan
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.AssemblyInfoInputs.cache
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.AssemblyInfo.cs
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.sourcelink.json
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoA.28F5307D.Up2Date
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\MyBancoApi.Transferencia.Infrastructure.dll
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Infrastructure\obj\Debug\net8.0\refint\MyBancoApi.Transferencia.Infrastructure.dll

@@ -5,6 +5,7 @@ D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Tr
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Transferencia.Domain.AssemblyInfoInputs.cache
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Transferencia.Domain.AssemblyInfo.cs
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Transferencia.Domain.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Transferencia.Domain.sourcelink.json
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Transferencia.Domain.dll
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\refint\MyBancoApi.Transferencia.Domain.dll
 D:\MyBancoApi\src\MyBancoApi.Transferencia.Domain\obj\Debug\net8.0\MyBancoApi.Transferencia.Domain.pdb

@@ -10,6 +10,7 @@ D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBan
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Infrastructure.AssemblyInfoInputs.cache
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Infrastructure.AssemblyInfo.cs
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Infrastructure.sourcelink.json
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBancoA.64FE2713.Up2Date
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\MyBancoApi.ContaCorrente.Infrastructure.dll
 D:\MyBancoApi\src\MyBancoApi.ContaCorrente.Infrastructure\obj\Debug\net8.0\refint\MyBancoApi.ContaCorrente.Infrastructure.dll

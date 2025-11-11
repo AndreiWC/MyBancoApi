@@ -260,9 +260,17 @@
               "target": "Package",
               "version": "[4.0.1, )"
             },
+            "KafkaFlow.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "KafkaFlow.Serializer.Json": {
               "target": "Package",
               "version": "[1.5.8, )"
+            },
+            "KafkaFlow.Serializer.JsonCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",

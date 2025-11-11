@@ -50,6 +50,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "KafkaFlow": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "KafkaFlow.Serializer.Json": {
+              "target": "Package",
+              "version": "[1.5.8, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -133,6 +141,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "KafkaFlow": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[13.1.0, )"

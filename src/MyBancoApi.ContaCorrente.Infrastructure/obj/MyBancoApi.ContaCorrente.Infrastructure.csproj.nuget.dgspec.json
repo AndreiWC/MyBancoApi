@@ -47,6 +47,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "KafkaFlow": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[13.1.0, )"

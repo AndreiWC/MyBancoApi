@@ -21,14 +21,13 @@ COPY src/MyBancoApi.Tarifas.Infrastructure/MyBancoApi.Tarifas.Infrastructure.csp
 
 RUN dotnet restore MyBancoApi.sln
 
-# Copia o restante do código-fonte e publica a API
+# Copia o restante do código-fonte e publica o Worker
 COPY . .
-WORKDIR "/src/src/MyBancoApi.Transferencia.Api"
-RUN dotnet publish -c Release -o /app/publish
+WORKDIR "/src/src/MyBancoApi.Tarifas.Worker"
+RUN dotnet publish "MyBancoApi.Tarifas.Worker.csproj" -c Release -o /app/publish
 
-# Estágio 2: Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+# Estágio 2: Final
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
-EXPOSE 8080
-ENTRYPOINT ["dotnet", "MyBancoApi.Transferencia.Api.dll"]
+ENTRYPOINT ["dotnet", "MyBancoApi.Tarifas.Worker.dll"]

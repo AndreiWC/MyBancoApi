@@ -1,44 +1,84 @@
 version: "3.8"
 
 services:
-  # Serviço 1: API de Conta Corrente
-  conta-corrente-api:
+  # --- Serviços do Kafka ---
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+      - "29092:29092" # Porta para comunicação interna do Docker
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+
+  # --- API de Conta Corrente ---
+  contacorrente-api:
     build:
-      context: . # O contexto é a raiz, onde está o .sln
+      context: .
       dockerfile: src/MyBancoApi.ContaCorrente.Api/Dockerfile
     ports:
-      - "5100:8080" # Expõe a porta 5100 (Host) para a 8080 (Container)
-    environment:
-      - ASPNETCORE_URLS=http://+:8080 # Diz ao Kestrel para rodar na porta 8080
+      - "5100:8080"
     volumes:
-      - bancodata:/db # Monta o volume 'bancodata' na pasta '/db' do container
-    networks:
-      - banconet
+      - dbdata:/dbdata
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - Jwt__Key=MINHA_CHAVE_SECRETA_SUPER_LONGA_E_SEGURA_PARA_JWT_2025
+      - Jwt__Issuer=MyBancoApi
+      - Jwt__Audience=MyBancoApi_Usuarios
+      - Kafka__Brokers=kafka:9092
+    depends_on:
+      - kafka # Depende do Kafka para iniciar
 
-  # Serviço 2: API de Transferência
+  # --- API de Transferência ---
   transferencia-api:
     build:
       context: .
       dockerfile: src/MyBancoApi.Transferencia.Api/Dockerfile
     ports:
       - "5200:8080"
-    environment:
-      - ASPNETCORE_URLS=http://+:8080
-      # *** IMPORTANTE ***
-      # A API de Transferência agora usa o nome do serviço 'conta-corrente-api'
-      # para se comunicar, não 'localhost'.
-      - ApiClients__ContaCorrenteApiUrl=http://conta-corrente-api:8080
     volumes:
-      - bancodata:/db # Monta o MESMO volume, permitindo acesso aos arquivos .db
+      - dbdata:/dbdata
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - Jwt__Key=MINHA_CHAVE_SECRETA_SUPER_LONGA_E_SEGURA_PARA_JWT_2025
+      - Jwt__Issuer=MyBancoApi
+      - Jwt__Audience=MyBancoApi_Usuarios
+      - ApiClients__ContaCorrenteApiUrl=http://contacorrente-api:8080
+      - Kafka__Brokers=kafka:9092
     depends_on:
-      - conta-corrente-api # Garante que a API de Conta Corrente inicie primeiro
-    networks:
-      - banconet
+      - contacorrente-api # Depende da C/C
+      - kafka # Depende do Kafka
 
-# Volumes: Onde os dados do SQLite (.db) serão salvos
+  # --- Worker de Tarifas (NOVO) ---
+  tarifas-worker:
+    build:
+      context: .
+      dockerfile: src/MyBancoApi.Tarifas.Worker/Dockerfile
+    volumes:
+      - dbdata:/dbdata # Monta o MESMO volume
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Kafka__Brokers=kafka:9092
+      - Configuracoes__ValorTarifa=2.00
+    depends_on:
+      - kafka # Depende do Kafka
+
 volumes:
-  bancodata:
-
-# Networks: A rede privada onde os containers se comunicam
-networks:
-  banconet:
+  dbdata:
